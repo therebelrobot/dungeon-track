@@ -1,0 +1,43 @@
+{
+  "name": "dungeon-track",
+  "version": "0.0.1",
+  "description": "a low-level tool to track d&d 5e characters, for eventual use as a slackbot",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/dungeon-track.git"
+  },
+  "keywords": [
+    "dnd",
+    "dungeons",
+    "dragons",
+    "dungeons",
+    "and",
+    "dragons",
+    "5e",
+    "dms",
+    "dungeon",
+    "masters",
+    "slackbot",
+    "cli"
+  ],
+  "author": "Aster Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/dungeon-track/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/dungeon-track#readme",
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "s3": "^4.4.0"
+  }
+}
